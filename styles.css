@@ -1,0 +1,94 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #fffde7, #fdd835); /* Degradê amarelo */
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.185); /* Fundo branco semitransparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #b38601;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Imagem na introdução */
+.imagem {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Lista de dicas */
+.tips ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.tips li {
+    margin-bottom: 10px;
+}
+
+/* Seção de contato */
+.contact {
+    background-color: #fff9c441;
+    padding: 20px;
+    border-left: 4px solid #ffeb3b;
+}
+
+/* Rodapé */
+footer {
+    background-color: #fdd835;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}
