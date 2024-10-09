@@ -93,7 +93,7 @@ footer p {
     font-size: 1em;
 }
 
-/* ===================== Media Queries ===================== */
+/* ===================== Media Query ===================== */
 
 /* Estilos para telas maiores (PCs e notebooks) */
 @media (min-width: 1024px) {
