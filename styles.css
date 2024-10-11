@@ -15,7 +15,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #ffeb3b;
+    background: linear-gradient(to bottom, #fffde7, #fdd835);
     color: #333;
     padding: 20px;
     text-align: center;
@@ -169,3 +169,16 @@ footer p {
         padding: 10px;
         font-size: 0.9em;
     }  
+}
+
+/* GIF do menu */
+.imagemgif2 {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    /* Opcional: ajuste para margens */
+    margin: 20px;
+    /* Opcional: ajuste de tamanho */
+    width: 55px;
+    height: 55px;
+  }
